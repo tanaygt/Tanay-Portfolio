@@ -111,8 +111,8 @@ open index.html
 
 ## 📬 Contact Me
 
-* 📧 Email: (add your email bro 😭)
-* 💼 LinkedIn: (add kar dena warna HR kaise milega)
+* 📧 Email: (shrivastavatanay22@gmail.com😭)
+* 💼 LinkedIn: (https://www.linkedin.com/in/tanayshrivastava-cse/)
 * 🐙 GitHub: https://github.com/tanaygt
 
 ---
