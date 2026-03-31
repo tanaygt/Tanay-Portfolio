@@ -188,6 +188,9 @@ img { max-width: 100%; display: block; }
   display: flex; align-items: center;
   position: relative; z-index: 1;
   padding-top: 80px;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 2rem;
 }
 .hero-grid-bg {
   position: absolute; inset: 0;
@@ -505,6 +508,7 @@ img { max-width: 100%; display: block; }
   content: ''; position: absolute; inset: 0;
   background: linear-gradient(135deg, rgba(99,102,241,0.04), transparent);
   opacity: 0; transition: opacity 0.3s;
+  pointer-events: none;
 }
 .project-card:hover { transform: translateY(-6px); border-color: rgba(99,102,241,0.35); }
 .project-card:hover::before { opacity: 1; }
@@ -939,4 +943,11 @@ img { max-width: 100%; display: block; }
   .footer-bottom { flex-direction: column; text-align: center; }
   .profile-wrapper { width: 280px; height: 280px; }
   .experience-split { gap: 1rem; }
+  .scroll-indicator {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    transform: none;
+    margin-top: 2rem;
+  }
 }
